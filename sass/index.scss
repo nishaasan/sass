@@ -1,0 +1,55 @@
+@import "variables";
+@import "buttons";
+@import "colors";
+@import "_paras";
+@import "_bgcolor";
+
+// Define variables here
+$primary:blue;
+$secondary:grey;
+$font-family:'Roboto','sans-serif';
+$font-size:1rem;
+body{
+    background-color: rgb(227, 227, 29);
+    margin:0;
+}
+
+h2{
+    text-align: center;
+    color:$primary;
+    font-size: $font-size-sm;
+    // background-color: map-get($colors,"primary");
+
+}
+p{
+    color:brown;
+    font-size:$font-size;
+    background-color:$secondary;
+    line-height: 30px;
+
+}
+nav{
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    //nested rules
+    a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 10px;
+        color:#fff;
+        text-align: center;
+        &:last-child{
+            color:aqua;
+        }
+        &:nth-child(2){
+            color:red;
+        }
+        &:hover{
+            background-color: #555;
+        }
+    }
+}
+
+
+

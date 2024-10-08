@@ -1,0 +1,61 @@
+//maps
+$colors:(
+    "primary":#0dfefd,
+    "secondary":#198754,
+    "info": #860df0
+
+);
+
+@debug map-get($colors,"primary");
+@debug map-has-key($colors,"info" );
+@debug map-remove($colors,"info" );
+@debug map-merge($colors,(
+    "success":#4caf50,
+    "warning":#ffeb3b
+));
+
+//each control directive
+@each $key,$val in $colors{
+    .text-#{$key}{
+        color:$val;
+    }
+    .bg-#{$key}{
+        background-color:$val;
+    }
+    @for $i from 1 through 3{
+        .text-#{$key}-light-#{$i}{
+          color:lighten($val,$i*10)
+        }
+        .bg-#{$key}-light-#{$i}{
+            background-color:lighten($val,$i*10)
+          }
+    }
+    @for $i from 1 through 3{
+      .text-#{$key}-dark-#{$i}{
+        color:darken($val,$i*10)
+      }
+      .bg-#{$key}-dark-#{$i}{
+          background-color:darken($val,$i*10)
+        }
+  }
+}
+/*.text-primary-light-1 {
+  color: lighten(blue, 10%);
+}
+.text-primary-light-2 {
+  color: lighten(blue, 20%);
+}
+.text-primary-light-3 {
+  color: lighten(blue, 30%);
+}
+
+.bg-primary-light-1 {
+  background-color: lighten(blue, 10%);
+}
+.bg-primary-light-2 {
+  background-color: lighten(blue, 20%);
+}
+.bg-primary-light-3 {
+  background-color: lighten(blue, 30%);
+}
+*/

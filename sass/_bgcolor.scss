@@ -1,0 +1,18 @@
+
+$colors: (
+    "light": #11e911,
+    "dark": #333,
+    "blue": #007bff,
+    "green": #28a745
+);
+
+@mixin textstyle{
+    color: map-get($colors, light);
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+.container{
+    @include textstyle;
+    background-color: map-get($colors, dark);
+    padding: 20px;
+}

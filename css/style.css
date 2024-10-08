@@ -1,0 +1,300 @@
+.text-white {
+  color: white;
+}
+
+.btn {
+  border: none;
+}
+
+.btn-primary {
+  background-color: green;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: red;
+  color: white;
+}
+
+.btn-tertiary {
+  background-color: gray;
+  color: white;
+}
+
+.button-primary {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button-primary:hover {
+  background-color: #004d00;
+}
+
+.text-primary {
+  color: #0dfefd;
+}
+
+.bg-primary {
+  background-color: #0dfefd;
+}
+
+.text-primary-light-1 {
+  color: rgb(63.7901234568, 254.2098765432, 253.4197530864);
+}
+
+.bg-primary-light-1 {
+  background-color: rgb(63.7901234568, 254.2098765432, 253.4197530864);
+}
+
+.text-primary-light-2 {
+  color: rgb(114.5802469136, 254.4197530864, 253.8395061728);
+}
+
+.bg-primary-light-2 {
+  background-color: rgb(114.5802469136, 254.4197530864, 253.8395061728);
+}
+
+.text-primary-light-3 {
+  color: rgb(165.3703703704, 254.6296296296, 254.2592592593);
+}
+
+.bg-primary-light-3 {
+  background-color: rgb(165.3703703704, 254.6296296296, 254.2592592593);
+}
+
+.text-primary-dark-1 {
+  color: rgb(0.8888888889, 215.1111111111, 214.2222222222);
+}
+
+.bg-primary-dark-1 {
+  background-color: rgb(0.8888888889, 215.1111111111, 214.2222222222);
+}
+
+.text-primary-dark-2 {
+  color: rgb(0.6790123457, 164.3209876543, 163.6419753086);
+}
+
+.bg-primary-dark-2 {
+  background-color: rgb(0.6790123457, 164.3209876543, 163.6419753086);
+}
+
+.text-primary-dark-3 {
+  color: rgb(0.4691358025, 113.5308641975, 113.0617283951);
+}
+
+.bg-primary-dark-3 {
+  background-color: rgb(0.4691358025, 113.5308641975, 113.0617283951);
+}
+
+.text-secondary {
+  color: #198754;
+}
+
+.bg-secondary {
+  background-color: #198754;
+}
+
+.text-secondary-light-1 {
+  color: rgb(32.96875, 178.03125, 110.775);
+}
+
+.bg-secondary-light-1 {
+  background-color: rgb(32.96875, 178.03125, 110.775);
+}
+
+.text-secondary-light-2 {
+  color: rgb(45.75, 216.25, 137.2);
+}
+
+.bg-secondary-light-2 {
+  background-color: rgb(45.75, 216.25, 137.2);
+}
+
+.text-secondary-light-3 {
+  color: rgb(88.78125, 224.21875, 161.425);
+}
+
+.bg-secondary-light-3 {
+  background-color: rgb(88.78125, 224.21875, 161.425);
+}
+
+.text-secondary-dark-1 {
+  color: rgb(17.03125, 91.96875, 57.225);
+}
+
+.bg-secondary-dark-1 {
+  background-color: rgb(17.03125, 91.96875, 57.225);
+}
+
+.text-secondary-dark-2 {
+  color: rgb(9.0625, 48.9375, 30.45);
+}
+
+.bg-secondary-dark-2 {
+  background-color: rgb(9.0625, 48.9375, 30.45);
+}
+
+.text-secondary-dark-3 {
+  color: rgb(1.09375, 5.90625, 3.675);
+}
+
+.bg-secondary-dark-3 {
+  background-color: rgb(1.09375, 5.90625, 3.675);
+}
+
+.text-info {
+  color: #860df0;
+}
+
+.bg-info {
+  background-color: #860df0;
+}
+
+.text-info-light-1 {
+  color: rgb(158.1067193676, 59.5849802372, 244.4150197628);
+}
+
+.bg-info-light-1 {
+  background-color: rgb(158.1067193676, 59.5849802372, 244.4150197628);
+}
+
+.text-info-light-2 {
+  color: rgb(182.0948616601, 107.9644268775, 247.0355731225);
+}
+
+.bg-info-light-2 {
+  background-color: rgb(182.0948616601, 107.9644268775, 247.0355731225);
+}
+
+.text-info-light-3 {
+  color: rgb(206.0830039526, 156.3438735178, 249.6561264822);
+}
+
+.bg-info-light-3 {
+  background-color: rgb(206.0830039526, 156.3438735178, 249.6561264822);
+}
+
+.text-info-dark-1 {
+  color: rgb(106.9881422925, 10.3794466403, 191.6205533597);
+}
+
+.bg-info-dark-1 {
+  background-color: rgb(106.9881422925, 10.3794466403, 191.6205533597);
+}
+
+.text-info-dark-2 {
+  color: rgb(79.976284585, 7.7588932806, 143.2411067194);
+}
+
+.bg-info-dark-2 {
+  background-color: rgb(79.976284585, 7.7588932806, 143.2411067194);
+}
+
+.text-info-dark-3 {
+  color: rgb(52.9644268775, 5.1383399209, 94.8616600791);
+}
+
+.bg-info-dark-3 {
+  background-color: rgb(52.9644268775, 5.1383399209, 94.8616600791);
+}
+
+/*.text-primary-light-1 {
+  color: lighten(blue, 10%);
+}
+.text-primary-light-2 {
+  color: lighten(blue, 20%);
+}
+.text-primary-light-3 {
+  color: lighten(blue, 30%);
+}
+
+.bg-primary-light-1 {
+  background-color: lighten(blue, 10%);
+}
+.bg-primary-light-2 {
+  background-color: lighten(blue, 20%);
+}
+.bg-primary-light-3 {
+  background-color: lighten(blue, 30%);
+}
+*/
+.paragraph-1 {
+  color: #3333ff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.paragraph-2 {
+  color: #6666ff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.paragraph-3 {
+  color: #9999ff;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.paras {
+  background-color: #222;
+  padding: 10px;
+}
+.paras .paras {
+  color: rgb(226, 19, 19);
+  padding: 30px;
+  border: 2px solid red;
+}
+
+.container {
+  color: #11e911;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  padding: 20px;
+}
+
+body {
+  background-color: rgb(227, 227, 29);
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+  font-size: 0.75rem;
+}
+
+p {
+  color: brown;
+  font-size: 1rem;
+  background-color: grey;
+  line-height: 30px;
+}
+
+nav {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  text-align: center;
+}
+nav a:last-child {
+  color: aqua;
+}
+nav a:nth-child(2) {
+  color: red;
+}
+nav a:hover {
+  background-color: #555;
+}
+
+/*# sourceMappingURL=style.css.map */

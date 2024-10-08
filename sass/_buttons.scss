@@ -1,0 +1,35 @@
+$btn-primary:green;
+$btn-secondary:red;
+$btn-tertiary:gray;
+
+.btn{
+border: none;
+}
+.btn-primary{
+    background-color: $btn-primary;
+    color: white;
+}
+.btn-secondary{
+    background-color: $btn-secondary;
+    color: white;
+}
+.btn-tertiary{
+    background-color: $btn-tertiary;
+    color: white;
+}
+
+@mixin button($bgcolor,$textcolor){
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+        background-color:darken($bgcolor, 10%);
+    }
+}
+
+.button-primary{
+    @include button($btn-primary, white);
+}

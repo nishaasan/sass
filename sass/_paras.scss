@@ -1,0 +1,27 @@
+@for $i from 1 through 3{
+    .paragraph-#{$i}{
+        color: lighten(blue,$i*10% );
+        font-size: (16px + $i*2px);
+        margin-bottom: 20px;
+    }
+}
+
+//if else
+
+$bg-color:#222;
+$text-color:#222;
+$colors: #f5f5f5, #e0e0e0, #ccc;
+.paras{
+    background-color: $bg-color;
+    padding:10px;
+    @if $bg-color ==$text-color{
+        .paras{
+            color: rgb(226, 19, 19);
+            padding:30px;
+            border: 2px solid red;
+        }
+    }
+}
+
+
+

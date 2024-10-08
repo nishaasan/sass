@@ -1,0 +1,25 @@
+//variables
+$primary:blue;
+$secondary:grey;
+$font-family:'Roboto','sans-serif';
+$font-size:1rem;
+$font-size-sm:$font-size*0.75;
+$font-size-md:$font-size*1.5;
+$font-size-xl:$font-size*2;
+
+
+@use "sass:math";
+@debug "testing";
+@debug 10px+5;
+
+@debug math.max(10px,20px,4px);
+@debug math.ceil(10.6);
+@debug math.pow(10,2);
+@debug math.compatible(5px,10px);
+@debug math.compatible(1rem,16px);
+@debug math.div(25px,2px);
+@debug math.random(10);
+
+.text-white{
+    color:white;
+}
